@@ -1,0 +1,2 @@
+dfx deploy --network $1 --no-wallet launchpad --argument '(principal "'${OWNER_PRINCIPAL}'",principal "'${FEE_PRINCIPAL}'")'
+dfx deploy --network $1 --no-wallet yuku --argument '(principal "'${OWNER_PRINCIPAL}'",principal "'${FEE_PRINCIPAL}'")'

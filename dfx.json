@@ -1,0 +1,25 @@
+{
+  "canisters": {
+    "launchpad": {
+      "main": "src/launchpad.mo",
+      "type": "motoko"
+    },
+    "yuku": {
+      "main": "src/yuku.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": "vessel sources"
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8888",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
