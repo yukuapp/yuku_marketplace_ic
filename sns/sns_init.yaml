@@ -18,7 +18,7 @@ url: https://yuku.app/
 # shown only in the NNS proposal.
 NnsProposal:
     # The title of the NNS proposal. Must be a string of 4 to 256 bytes.
-    title: "NNS Proposal to create an SNS named 'Yuku'"
+    title: "NNS Proposal to create an SNS named 'Yuku DAO'"
 
     # The HTTPS address of additional content required to evaluate the NNS
     # proposal.
@@ -29,18 +29,18 @@ NnsProposal:
       **I. Token Distribution**
 
       * Total token supply -  1 Billion
-      * Allocated to treasury -  66%
-      * Allocated to decentralization sale -  17%
-      * Allocated to the Yuku developer team -  17%
+      * Allocated to treasury -  82%
+      * Allocated to decentralization sale -  9%
+      * Allocated to developer neurons -  9%
       * The Ledger Transaction fee is 0.01 YUKU
 
 
       **II. Governance**
 
-      The governance model includes staking, voting, and other relevant details. The minimum amount of SNS tokens to stake a neuron is 200 tokens. The minimum dissolve delay a neuron must have to be able to cast votes on proposals is 3 months and the maximum dissolve delay is 1 year.
+      The governance model includes staking, voting, and other relevant details. The minimum amount of SNS tokens to stake a neuron is 50 tokens. The minimum dissolve delay a neuron must have to be able to cast votes on proposals is 3 months and the maximum dissolve delay is 1 year.
 
       Decentralization Sale
-      * Min participation -  3 ICP
+      * Min participation -  1 ICP
       * Min participants -  100
       * Min to be raised -  100,000 ICP
       * Max to be raised -  500,000 ICP
@@ -82,7 +82,7 @@ dapp_canisters:
 Token:
     # The name of the token issued by the SNS ledger.
     # Must be a string of 4 to 255 bytes without leading or trailing spaces.
-    name: YukuDAO
+    name: Yuku DAO
 
     # The symbol of the token issued by the SNS Ledger.
     # Must be a string of 3 to 10 bytes without leading or trailing spaces.
@@ -116,7 +116,7 @@ Proposals:
 Neurons:
     # The minimum amount of SNS tokens to stake a neuron. This field is specified
     # as a token. For instance, "1 token".
-    minimum_creation_stake: 200 tokens
+    minimum_creation_stake: 50 tokens
 
 # Configuration of SNS voting.
 Voting:
@@ -250,7 +250,7 @@ Distribution:
         - principal: 2lzmh-xcjma-wpyqc-eoyto-ztbnu-63zjf-7e5g5-kehax-okuhs-dxzyd-aae
           stake: 1_666_666 tokens
           memo: 0
-          dissolve_delay: 3 months
+          dissolve_delay: 0 months
           vesting_period: 0 months
         - principal: 2lzmh-xcjma-wpyqc-eoyto-ztbnu-63zjf-7e5g5-kehax-okuhs-dxzyd-aae
           stake: 1_666_666 tokens
@@ -280,22 +280,22 @@ Distribution:
         - principal: 2lzmh-xcjma-wpyqc-eoyto-ztbnu-63zjf-7e5g5-kehax-okuhs-dxzyd-aae
           stake: 1_666_667 tokens
           memo: 6
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 18 months
         - principal: 2lzmh-xcjma-wpyqc-eoyto-ztbnu-63zjf-7e5g5-kehax-okuhs-dxzyd-aae
           stake: 1_666_667 tokens
           memo: 7
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 21 months
         - principal: 2lzmh-xcjma-wpyqc-eoyto-ztbnu-63zjf-7e5g5-kehax-okuhs-dxzyd-aae
           stake: 1_666_667 tokens
           memo: 8
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 24 months
         - principal: muyu2-bf2qb-edfye-mhzxl-osmay-3kzmu-csnbj-ej553-3upsk-bx2ri-qqe
           stake: 1_666_666 tokens
           memo: 9
-          dissolve_delay: 3 months
+          dissolve_delay: 0 months
           vesting_period: 0 months
         - principal: muyu2-bf2qb-edfye-mhzxl-osmay-3kzmu-csnbj-ej553-3upsk-bx2ri-qqe
           stake: 1_666_666 tokens
@@ -325,22 +325,22 @@ Distribution:
         - principal: muyu2-bf2qb-edfye-mhzxl-osmay-3kzmu-csnbj-ej553-3upsk-bx2ri-qqe
           stake: 1_666_667 tokens
           memo: 15
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 18 months
         - principal: muyu2-bf2qb-edfye-mhzxl-osmay-3kzmu-csnbj-ej553-3upsk-bx2ri-qqe
           stake: 1_666_667 tokens
           memo: 16
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 21 months
         - principal: muyu2-bf2qb-edfye-mhzxl-osmay-3kzmu-csnbj-ej553-3upsk-bx2ri-qqe
           stake: 1_666_667 tokens
           memo: 17
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 24 months
         - principal: rwr22-wrs3x-iytnh-qtu7t-ydpyn-j6y2c-r2pne-7yxyo-5ukpl-5o2ty-sae
           stake: 1_666_666 tokens
           memo: 18
-          dissolve_delay: 3 months
+          dissolve_delay: 0 months
           vesting_period: 0 months
         - principal: rwr22-wrs3x-iytnh-qtu7t-ydpyn-j6y2c-r2pne-7yxyo-5ukpl-5o2ty-sae
           stake: 1_666_666 tokens
@@ -370,22 +370,22 @@ Distribution:
         - principal: rwr22-wrs3x-iytnh-qtu7t-ydpyn-j6y2c-r2pne-7yxyo-5ukpl-5o2ty-sae
           stake: 1_666_667 tokens
           memo: 24
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 18 months
         - principal: rwr22-wrs3x-iytnh-qtu7t-ydpyn-j6y2c-r2pne-7yxyo-5ukpl-5o2ty-sae
           stake: 1_666_667 tokens
           memo: 25
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 21 months
         - principal: rwr22-wrs3x-iytnh-qtu7t-ydpyn-j6y2c-r2pne-7yxyo-5ukpl-5o2ty-sae
           stake: 1_666_667 tokens
           memo: 26
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 24 months
         - principal: orvyu-v36k3-thvyc-i3n6f-usceb-ury5j-puqk3-jxtwt-gr3dc-4o5sz-zqe
           stake: 1_666_166 tokens
           memo: 27
-          dissolve_delay: 3 months
+          dissolve_delay: 0 months
           vesting_period: 0 months
         - principal: orvyu-v36k3-thvyc-i3n6f-usceb-ury5j-puqk3-jxtwt-gr3dc-4o5sz-zqe
           stake: 1_666_666 tokens
@@ -415,22 +415,22 @@ Distribution:
         - principal: orvyu-v36k3-thvyc-i3n6f-usceb-ury5j-puqk3-jxtwt-gr3dc-4o5sz-zqe
           stake: 1_666_667 tokens
           memo: 33
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 18 months
         - principal: orvyu-v36k3-thvyc-i3n6f-usceb-ury5j-puqk3-jxtwt-gr3dc-4o5sz-zqe
           stake: 1_666_667 tokens
           memo: 34
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 21 months
         - principal: orvyu-v36k3-thvyc-i3n6f-usceb-ury5j-puqk3-jxtwt-gr3dc-4o5sz-zqe
           stake: 1_666_667 tokens
           memo: 35
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 24 months
         - principal: t4dbh-xk27c-hpmw5-whnx5-tpus7-g53xe-s65pn-nuh3e-3e3w2-mlzm3-kae
           stake: 1_666_666 tokens
           memo: 36
-          dissolve_delay: 3 months
+          dissolve_delay: 0 months
           vesting_period: 0 months
         - principal: t4dbh-xk27c-hpmw5-whnx5-tpus7-g53xe-s65pn-nuh3e-3e3w2-mlzm3-kae
           stake: 1_666_666 tokens
@@ -460,22 +460,22 @@ Distribution:
         - principal: t4dbh-xk27c-hpmw5-whnx5-tpus7-g53xe-s65pn-nuh3e-3e3w2-mlzm3-kae
           stake: 1_666_667 tokens
           memo: 42
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 18 months
         - principal: t4dbh-xk27c-hpmw5-whnx5-tpus7-g53xe-s65pn-nuh3e-3e3w2-mlzm3-kae
           stake: 1_666_667 tokens
           memo: 43
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 21 months
         - principal: t4dbh-xk27c-hpmw5-whnx5-tpus7-g53xe-s65pn-nuh3e-3e3w2-mlzm3-kae
           stake: 1_666_667 tokens
           memo: 44
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 24 months
         - principal: 4c756-3updc-eqvq5-dshin-jcrlh-2k32a-zls3q-upt73-lb3cp-xwhak-cqe
           stake: 1_666_666 tokens
           memo: 45
-          dissolve_delay: 3 months
+          dissolve_delay: 0 months
           vesting_period: 0 months
         - principal: 4c756-3updc-eqvq5-dshin-jcrlh-2k32a-zls3q-upt73-lb3cp-xwhak-cqe
           stake: 1_666_666 tokens
@@ -505,221 +505,21 @@ Distribution:
         - principal: 4c756-3updc-eqvq5-dshin-jcrlh-2k32a-zls3q-upt73-lb3cp-xwhak-cqe
           stake: 1_666_667 tokens
           memo: 51
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 18 months
         - principal: 4c756-3updc-eqvq5-dshin-jcrlh-2k32a-zls3q-upt73-lb3cp-xwhak-cqe
           stake: 1_666_667 tokens
           memo: 52
-          dissolve_delay: 3 months
+          dissolve_delay: 2 months
           vesting_period: 21 months
         - principal: 4c756-3updc-eqvq5-dshin-jcrlh-2k32a-zls3q-upt73-lb3cp-xwhak-cqe
           stake: 1_666_667 tokens
           memo: 53
-          dissolve_delay: 3 months
-          vesting_period: 24 months
-        - principal: n7k7m-yadvb-x7jbk-pol55-tc2if-yt7hl-rfmky-o6v5g-fazvt-m6lwj-bae
-          stake: 2_000_000 tokens
-          memo: 54
-          dissolve_delay: 0 months
-          vesting_period: 3 months
-        - principal: n7k7m-yadvb-x7jbk-pol55-tc2if-yt7hl-rfmky-o6v5g-fazvt-m6lwj-bae
-          stake: 2_000_000 tokens
-          memo: 55
-          dissolve_delay: 0 months
-          vesting_period: 6 months
-        - principal: n7k7m-yadvb-x7jbk-pol55-tc2if-yt7hl-rfmky-o6v5g-fazvt-m6lwj-bae
-          stake: 2_000_000 tokens
-          memo: 56
-          dissolve_delay: 0 months
-          vesting_period: 9 months
-        - principal: n7k7m-yadvb-x7jbk-pol55-tc2if-yt7hl-rfmky-o6v5g-fazvt-m6lwj-bae
-          stake: 2_000_000 tokens
-          memo: 57
-          dissolve_delay: 0 months
-          vesting_period: 12 months
-        - principal: n7k7m-yadvb-x7jbk-pol55-tc2if-yt7hl-rfmky-o6v5g-fazvt-m6lwj-bae
-          stake: 2_000_000 tokens
-          memo: 58
-          dissolve_delay: 0 months
-          vesting_period: 15 months
-        - principal: n7k7m-yadvb-x7jbk-pol55-tc2if-yt7hl-rfmky-o6v5g-fazvt-m6lwj-bae
-          stake: 2_000_000 tokens
-          memo: 59
-          dissolve_delay: 0 months
-          vesting_period: 18 months
-        - principal: n7k7m-yadvb-x7jbk-pol55-tc2if-yt7hl-rfmky-o6v5g-fazvt-m6lwj-bae
-          stake: 2_000_000 tokens
-          memo: 60
-          dissolve_delay: 0 months
-          vesting_period: 21 months
-        - principal: n7k7m-yadvb-x7jbk-pol55-tc2if-yt7hl-rfmky-o6v5g-fazvt-m6lwj-bae
-          stake: 2_000_000 tokens
-          memo: 61
-          dissolve_delay: 0 months
-          vesting_period: 24 months
-        - principal: 7pwi6-fbtsz-5avrf-wvnda-yuw7y-yntfq-ssmia-ywzsx-yy52x-wgtq2-nae
-          stake: 2_000_000 tokens
-          memo: 62
-          dissolve_delay: 0 months
-          vesting_period: 3 months
-        - principal: 7pwi6-fbtsz-5avrf-wvnda-yuw7y-yntfq-ssmia-ywzsx-yy52x-wgtq2-nae
-          stake: 2_000_000 tokens
-          memo: 63
-          dissolve_delay: 0 months
-          vesting_period: 6 months
-        - principal: 7pwi6-fbtsz-5avrf-wvnda-yuw7y-yntfq-ssmia-ywzsx-yy52x-wgtq2-nae
-          stake: 2_000_000 tokens
-          memo: 64
-          dissolve_delay: 0 months
-          vesting_period: 9 months
-        - principal: 7pwi6-fbtsz-5avrf-wvnda-yuw7y-yntfq-ssmia-ywzsx-yy52x-wgtq2-nae
-          stake: 2_000_000 tokens
-          memo: 65
-          dissolve_delay: 0 months
-          vesting_period: 12 months
-        - principal: 7pwi6-fbtsz-5avrf-wvnda-yuw7y-yntfq-ssmia-ywzsx-yy52x-wgtq2-nae
-          stake: 2_000_000 tokens
-          memo: 66
-          dissolve_delay: 0 months
-          vesting_period: 15 months
-        - principal: 7pwi6-fbtsz-5avrf-wvnda-yuw7y-yntfq-ssmia-ywzsx-yy52x-wgtq2-nae
-          stake: 2_000_000 tokens
-          memo: 67
-          dissolve_delay: 0 months
-          vesting_period: 18 months
-        - principal: 7pwi6-fbtsz-5avrf-wvnda-yuw7y-yntfq-ssmia-ywzsx-yy52x-wgtq2-nae
-          stake: 2_000_000 tokens
-          memo: 68
-          dissolve_delay: 0 months
-          vesting_period: 21 months
-        - principal: 7pwi6-fbtsz-5avrf-wvnda-yuw7y-yntfq-ssmia-ywzsx-yy52x-wgtq2-nae
-          stake: 2_000_000 tokens
-          memo: 69
-          dissolve_delay: 0 months
-          vesting_period: 24 months
-        - principal: euwiu-jj657-evkam-rzp5q-4yrhm-nc2hz-guql6-gobzy-d7pvo-gkvsm-sae
-          stake: 2_000_000 tokens
-          memo: 70
-          dissolve_delay: 0 months
-          vesting_period: 3 months
-        - principal: euwiu-jj657-evkam-rzp5q-4yrhm-nc2hz-guql6-gobzy-d7pvo-gkvsm-sae
-          stake: 2_000_000 tokens
-          memo: 71
-          dissolve_delay: 0 months
-          vesting_period: 6 months
-        - principal: euwiu-jj657-evkam-rzp5q-4yrhm-nc2hz-guql6-gobzy-d7pvo-gkvsm-sae
-          stake: 2_000_000 tokens
-          memo: 72
-          dissolve_delay: 0 months
-          vesting_period: 9 months
-        - principal: euwiu-jj657-evkam-rzp5q-4yrhm-nc2hz-guql6-gobzy-d7pvo-gkvsm-sae
-          stake: 2_000_000 tokens
-          memo: 73
-          dissolve_delay: 0 months
-          vesting_period: 12 months
-        - principal: euwiu-jj657-evkam-rzp5q-4yrhm-nc2hz-guql6-gobzy-d7pvo-gkvsm-sae
-          stake: 2_000_000 tokens
-          memo: 74
-          dissolve_delay: 0 months
-          vesting_period: 15 months
-        - principal: euwiu-jj657-evkam-rzp5q-4yrhm-nc2hz-guql6-gobzy-d7pvo-gkvsm-sae
-          stake: 2_000_000 tokens
-          memo: 75
-          dissolve_delay: 0 months
-          vesting_period: 18 months
-        - principal: euwiu-jj657-evkam-rzp5q-4yrhm-nc2hz-guql6-gobzy-d7pvo-gkvsm-sae
-          stake: 2_000_000 tokens
-          memo: 76
-          dissolve_delay: 0 months
-          vesting_period: 21 months
-        - principal: euwiu-jj657-evkam-rzp5q-4yrhm-nc2hz-guql6-gobzy-d7pvo-gkvsm-sae
-          stake: 2_000_000 tokens
-          memo: 77
-          dissolve_delay: 0 months
-          vesting_period: 24 months
-        - principal: xxrh2-3if3e-3wrd6-wzxms-ry2tu-k4iyt-twbnk-erz5r-r5j47-gmnpt-zqe
-          stake: 2_000_000 tokens
-          memo: 78
-          dissolve_delay: 0 months
-          vesting_period: 3 months
-        - principal: xxrh2-3if3e-3wrd6-wzxms-ry2tu-k4iyt-twbnk-erz5r-r5j47-gmnpt-zqe
-          stake: 2_000_000 tokens
-          memo: 79
-          dissolve_delay: 0 months
-          vesting_period: 6 months
-        - principal: xxrh2-3if3e-3wrd6-wzxms-ry2tu-k4iyt-twbnk-erz5r-r5j47-gmnpt-zqe
-          stake: 2_000_000 tokens
-          memo: 80
-          dissolve_delay: 0 months
-          vesting_period: 9 months
-        - principal: xxrh2-3if3e-3wrd6-wzxms-ry2tu-k4iyt-twbnk-erz5r-r5j47-gmnpt-zqe
-          stake: 2_000_000 tokens
-          memo: 81
-          dissolve_delay: 0 months
-          vesting_period: 12 months
-        - principal: xxrh2-3if3e-3wrd6-wzxms-ry2tu-k4iyt-twbnk-erz5r-r5j47-gmnpt-zqe
-          stake: 2_000_000 tokens
-          memo: 82
-          dissolve_delay: 0 months
-          vesting_period: 15 months
-        - principal: xxrh2-3if3e-3wrd6-wzxms-ry2tu-k4iyt-twbnk-erz5r-r5j47-gmnpt-zqe
-          stake: 2_000_000 tokens
-          memo: 83
-          dissolve_delay: 0 months
-          vesting_period: 18 months
-        - principal: xxrh2-3if3e-3wrd6-wzxms-ry2tu-k4iyt-twbnk-erz5r-r5j47-gmnpt-zqe
-          stake: 2_000_000 tokens
-          memo: 84
-          dissolve_delay: 0 months
-          vesting_period: 21 months
-        - principal: xxrh2-3if3e-3wrd6-wzxms-ry2tu-k4iyt-twbnk-erz5r-r5j47-gmnpt-zqe
-          stake: 2_000_000 tokens
-          memo: 85
-          dissolve_delay: 0 months
-          vesting_period: 24 months
-        - principal: kkzyw-2s64p-fbi7u-4d2bs-jtpib-2lkcd-u57rz-4tp2n-x6okj-xg7aq-iae
-          stake: 2_000_000 tokens
-          memo: 86
-          dissolve_delay: 0 months
-          vesting_period: 3 months
-        - principal: kkzyw-2s64p-fbi7u-4d2bs-jtpib-2lkcd-u57rz-4tp2n-x6okj-xg7aq-iae
-          stake: 2_000_000 tokens
-          memo: 87
-          dissolve_delay: 0 months
-          vesting_period: 6 months
-        - principal: kkzyw-2s64p-fbi7u-4d2bs-jtpib-2lkcd-u57rz-4tp2n-x6okj-xg7aq-iae
-          stake: 2_000_000 tokens
-          memo: 88
-          dissolve_delay: 0 months
-          vesting_period: 9 months
-        - principal: kkzyw-2s64p-fbi7u-4d2bs-jtpib-2lkcd-u57rz-4tp2n-x6okj-xg7aq-iae
-          stake: 2_000_000 tokens
-          memo: 89
-          dissolve_delay: 0 months
-          vesting_period: 12 months
-        - principal: kkzyw-2s64p-fbi7u-4d2bs-jtpib-2lkcd-u57rz-4tp2n-x6okj-xg7aq-iae
-          stake: 2_000_000 tokens
-          memo: 90
-          dissolve_delay: 0 months
-          vesting_period: 15 months
-        - principal: kkzyw-2s64p-fbi7u-4d2bs-jtpib-2lkcd-u57rz-4tp2n-x6okj-xg7aq-iae
-          stake: 2_000_000 tokens
-          memo: 91
-          dissolve_delay: 0 months
-          vesting_period: 18 months
-        - principal: kkzyw-2s64p-fbi7u-4d2bs-jtpib-2lkcd-u57rz-4tp2n-x6okj-xg7aq-iae
-          stake: 2_000_000 tokens
-          memo: 92
-          dissolve_delay: 0 months
-          vesting_period: 21 months
-        - principal: kkzyw-2s64p-fbi7u-4d2bs-jtpib-2lkcd-u57rz-4tp2n-x6okj-xg7aq-iae
-          stake: 2_000_000 tokens
-          memo: 93
-          dissolve_delay: 0 months
+          dissolve_delay: 2 months
           vesting_period: 24 months
         - principal: h77xz-dinyi-o73ca-gvzkj-flqwm-j6rqh-g5hel-wwp3i-obnov-rftza-bqe
           stake: 500 tokens
-          memo: 94
+          memo: 54
           dissolve_delay: 0 months
           vesting_period: 0 months
 
@@ -728,18 +528,18 @@ Distribution:
         # The initial SNS token balance of the SNS Governance canister is known
         # as the treasury. This is initialized in a special sub-account, as the
         # main account of Governance is the minting account of the SNS Ledger.
-        governance: 660_000_000 tokens
+        governance: 820_000_000 tokens
         
         # The initial SNS token balance of the Swap canister is what will be
         # available for the decentralization swap. These tokens will be swapped
         # for ICP.
-        swap: 170_000_000 tokens
+        swap: 90_000_000 tokens
 
     #Error: The sum of all developer allocated tokens must be less than or equal to swap_distribution.total_e8s
     # Checksum of the total number of tokens distributed in this section.
-    #     170 million     (developer neuron) 
-    #     660 million     (governance)
-    #     170 million     (swap)
+    #     90 million     (developer neurons) 
+    #     820 million     (governance)
+    #     90 million     (swap)
     total: 1_000_000_000 tokens
 
 # Configuration of the decentralization swap parameters. Choose these parameters
@@ -771,7 +571,7 @@ Swap:
     # The minimum amount of ICP that each participant must contribute
     # to participate. This field is specified as a token. For instance,
     # "1 token".
-    minimum_participant_icp: 3 tokens
+    minimum_participant_icp: 1 tokens
 
     # The maximum amount of ICP that each participant may contribute
     # to participate. This field is specified as a token. For instance,
@@ -783,9 +583,8 @@ Swap:
     #
     # This field is optional. If set, must be within 1 to 1,000 characters and
     # at most 8,000 bytes.
-    # confirmation_text: >
-    #     I confirm my understanding of the responsibilities and risks
-    #     associated with participating in this token swap.
+    confirmation_text: >
+      I confirm my understanding of the responsibilities and risks associated with participating in this token swap.
 
     # A list of countries from which swap participation should not be allowed.
     #
